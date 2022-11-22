@@ -4,7 +4,7 @@ function MyNavbar() {
   return (
     <>
       <Navbar bg="light" expand="md">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#">StriveBooks</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
