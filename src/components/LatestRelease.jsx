@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import horror from "../booksData/horror.json";
+import "./LatestRelease.css";
 
 class LatestRelease extends Component {
   state = {
@@ -16,7 +17,7 @@ class LatestRelease extends Component {
         <Container>
           <Row className="justify-content-center mt-3">
             {horror.map((book) => (
-              <Col xs={12} sm={6} lg={4} xl={3} key={book.asin}>
+              <Col xs={12} sm={4} lg={4} xl={3} key={book.asin}>
                 <Card>
                   <Card.Img variant="top" src={book.img} />
                   <Card.Body>
