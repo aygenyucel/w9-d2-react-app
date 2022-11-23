@@ -18,4 +18,7 @@ function App() {
   );
 }
 
+{
+  /* <></> => react fragment */
+}
 export default App;
